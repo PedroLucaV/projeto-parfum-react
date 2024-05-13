@@ -73,5 +73,6 @@ export const ButtonBuy = styled.button`
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    border-radius: 12px
+    border-radius: 12px;
+    cursor: pointer;
 `
