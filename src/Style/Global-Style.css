@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Fraunces;
+    src: url(../Fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: Montserrat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: hsl(228,12%,48%);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.image {
+    width: 50%;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
