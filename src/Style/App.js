@@ -3,7 +3,8 @@ import styled from "styled-components";
 const Cores = {
     DarkCyan: "hsl(158,36%,37%)",
     Verydarkblue: "hsl(212,21%,14%)",
-    DarkGrayishblue: "hsl(228,12%,48%)"
+    DarkGrayishblue: "hsl(228,12%,48%)",
+    Everglade: "#1a4031"
 }
 
 export const CardDiv = styled.div`
@@ -75,4 +76,7 @@ export const ButtonBuy = styled.button`
     margin-top: 10px;
     border-radius: 12px;
     cursor: pointer;
+    &:hover{
+        background-color: ${Cores.Everglade}
+    }
 `
